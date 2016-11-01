@@ -17,54 +17,79 @@ brew 'coreutils'
 brew 'findutils'
 
 # Install Bash 4
-brew 'bash'
+brew 'zsh'
 
 # Install more recent versions of some macOS tools
 brew 'homebrew/dupes/grep'
 
 # Install Binaries
 brew 'awscli'
+brew 'composer'
+brew 'gibo'
 brew 'git'
 brew 'hub'
 brew 'tree'
 brew 'mackup'
 brew 'mas'
+brew 'maven'
 brew 'node'
+brew 'rm-tree'
 brew 'trash'
 brew 'wget'
+brew 'zsh-completions'
 
 # Development
-brew 'php70', args: ['with-debug', 'without-apache']
-brew 'mariadb'
+brew 'php56', args: ['with-debug', 'without-apache', 'with-postgresql']
+brew 'php56-intl'
 
 # Apps
-cask 'aerial'
-cask 'alfred'
+cask '1password'
+cask 'android-studio'
+cask 'appcleaner'
 cask 'atom'
 cask 'caffeine'
+cask 'calibre'
 cask 'cheatsheet'
+cask 'dbvisualizer'
 cask 'dash'
+cask 'divvy'
+cask 'docker'
+cask 'virtualbox-extension-pack'
 cask 'dropbox'
-cask 'evernote'
 cask 'firefox'
 cask 'fluid'
+cask 'flux'
 cask 'google-chrome'
-cask 'google-drive'
+cask 'gpgtools'
+cask 'instellij-idea'
 cask 'iterm2'
-cask 'mysqlworkbench'
+cask 'java'
+cask 'java7'
+cask 'jdownloader'
+cask 'karabiner'
+cask 'keka'
+cask 'keybase'
+cask 'macpass'
+cask 'macvim'
+cask 'mou'
+cask 'pgadmin3'
 cask 'phpstorm'
+cask 'poedit'
+cask 'postman'
 cask 'rescuetime'
 cask 'sequel-pro'
-cask 'skype'
+cask 'shiftit'
 cask 'slack'
+cask 'sts'
 cask 'sublime-text'
-cask 'textual'
+cask 'teamviewer'
+cask 'telegram'
 cask 'tower'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+cask 'vmware-fusion'
 cask 'vlc'
+cask 'webstorm'
+cask 'whatsapp'
+cask 'wireshark'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -78,14 +103,8 @@ cask 'font-sauce-code-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+cask 'font-open-sans'
 
 # Install Mac App Store apps
-mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Tweetbot', id: 557168941
-mas 'Wunderlist', id: 410628904
+mas 'Pixelmator', id: 407963104
+mas' Microsoft Remote Desktop', id: 715768417
